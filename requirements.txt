@@ -37,3 +37,5 @@ TatSu==5.12.1
 timezonefinder==6.5.2
 tqdm==4.66.5
 urllib3==2.2.3
+
+flask==2.3.3

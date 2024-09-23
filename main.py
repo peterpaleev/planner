@@ -31,6 +31,17 @@ from datetime import datetime
 from timezonefinder import TimezoneFinder
 import pytz
 
+from flask import Flask
+
+# Initialize Flask app
+app = Flask(__name__)
+
+# Define a simple route to keep Heroku happy
+@app.route('/')
+def index():
+    return "Hello, I'm alive!"
+
+
 # Define conversation states
 ASKING_NAME, ASKING_DATE, ASKING_TIME, ASKING_LOCATION = range(4)
 
@@ -437,4 +448,11 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
-    main()
+    # Start the bot in a separate thread
+    from threading import Thread
+    bot_thread = Thread(target=main)
+    bot_thread.start()
+
+    # Start the Flask app
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
