@@ -20796,3 +20796,52 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2024-09-20 14:27:59,173 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
 2024-09-20 14:29:04,879 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
 2024-09-20 14:29:04,879 - telegram.ext.Application - INFO - Application.stop() complete
+2024-09-24 00:12:44,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getMe "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,137 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/deleteWebhook "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,141 - telegram.ext.Application - INFO - Application started
+2024-09-24 00:12:44,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,508 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,509 - __main__ - INFO - /start command received from user 125152357 (peterpaleev)
+2024-09-24 00:12:44,602 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,603 - __main__ - INFO - /start command received from user 125152357 (peterpaleev)
+2024-09-24 00:12:44,696 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,697 - __main__ - INFO - /start command received from user 125152357 (peterpaleev)
+2024-09-24 00:12:44,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,784 - __main__ - INFO - /start command received from user 125152357 (peterpaleev)
+2024-09-24 00:12:44,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,886 - __main__ - INFO - /start command received from user 125152357 (peterpaleev)
+2024-09-24 00:12:44,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:12:44,987 - __main__ - INFO - /start command received from user 125152357 (peterpaleev)
+2024-09-24 00:12:45,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:12:45,115 - __main__ - INFO - /start command received from user 125152357 (peterpaleev)
+2024-09-24 00:12:45,115 - __main__ - INFO - Message from user 125152357 (peterpaleev): hello
+2024-09-24 00:12:46,631 - __main__ - INFO - Response from LLM: ```json
+{
+  "name": null,
+  "date": null,
+  "time": null
+}
+```
+
+The user input "hello" does not contain any event information. Therefore, the JSON output reflects this by having null values for all fields. 
+
+2024-09-24 00:12:46,632 - __main__ - INFO - Parsed event data: {'name': None, 'date': None, 'time': None}
+2024-09-24 00:12:46,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:12:54,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:13:04,632 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:13:11,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:13:11,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:13:16,105 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:13:16,724 - __main__ - INFO - Response from LLM for date parsing: 2024-09-24T00:00:00+00:00
+2024-09-24 00:13:16,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendMessage "HTTP/1.1 200 OK"
+2024-09-24 00:13:16,951 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/sendDocument "HTTP/1.1 200 OK"
+2024-09-24 00:13:16,952 - __main__ - INFO - Event created for user 125152357 (peterpaleev): звонок лкм at 2024-09-24 00:00:00+00:00
+2024-09-24 00:13:26,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:13:36,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:13:47,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:13:57,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:14:07,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:14:17,569 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:14:27,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
+2024-09-24 00:14:34,061 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2024-09-24 00:14:34,064 - telegram.ext.Application - INFO - Application.stop() complete

@@ -449,10 +449,7 @@ def main():
 
 if __name__ == '__main__':
     # Start the bot in a separate thread
-    from threading import Thread
-    bot_thread = Thread(target=main)
-    bot_thread.start()
-
+    main()
     # Start the Flask app
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
