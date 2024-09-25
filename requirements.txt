@@ -39,3 +39,19 @@ tqdm==4.66.5
 urllib3==2.2.3
 
 flask==2.3.3
+
+
+python-telegram-bot
+python-dotenv
+google-generativeai
+sqlalchemy
+psycopg2-binary
+ics
+pytz
+timezonefinder
+python-dateutil
+apscheduler
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+Flask

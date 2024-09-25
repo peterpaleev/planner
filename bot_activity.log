@@ -20845,3 +20845,4 @@ The user input "hello" does not contain any event information. Therefore, the JS
 2024-09-24 00:14:27,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6533936573:AAGfLONwu9UxRS2vMoyo8McxRxnKWQbznH8/getUpdates "HTTP/1.1 200 OK"
 2024-09-24 00:14:34,061 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
 2024-09-24 00:14:34,064 - telegram.ext.Application - INFO - Application.stop() complete
+2024-09-26 01:33:53,555 - __main__ - ERROR - Database URL not found. Please set the DATABASE_URL environment variable.
